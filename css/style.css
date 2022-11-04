@@ -1,0 +1,402 @@
+/*https://vk.com/away.php?to=https%3A%2F%2Fwww.figma.com%2Ffile%2Fdb6l27f2K4bCiKHgqKRq77%2FTraveland%3Fnode-id%3D0%253A1&post=-59159584_465&cc_key=*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+:focus, :active {
+    outline: none; }
+  
+a:focus, a:active {
+    outline: none; }
+  
+nav, footer, header, aside {
+    display: block; }
+  
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%; }
+  
+input, button, textarea {
+    font-family: inherit; }
+  
+input::-ms-clear {
+    display: none; }
+  
+button {
+    cursor: pointer; }
+  
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+  
+a, a:visited {
+    text-decoration: none; }
+  
+a:hover {
+    text-decoration: none; }
+  
+ul li {
+    list-style: none; }
+  
+img {
+    vertical-align: top; }
+  
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit; }
+
+p {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+}    
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+}  
+
+.wrapper {
+    margin-top: 42px;
+    margin-left: 230px;
+}
+
+.header {
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header-h5 {
+    font-family: Ribeye;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+}
+
+.header-list {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 221px;
+} 
+
+.header-list h5 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    padding-right: 50px;
+}
+
+.header a {
+    color: white;
+}
+
+.knopka-header {
+    margin-left: 172px;
+}
+
+.knopka-h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    background-color:#C9453B;
+    width: max-content;
+    height: max-content;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.knopka-h5:hover {
+    background-color: #999999;
+    
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    color: black;
+    -webkit-transition: color 1000ms linear;
+    -ms-transition: color 1000ms linear;
+    transition: color 1000ms linear;
+}
+
+.head1 {
+    margin-top: 212px;
+    color: white;
+}
+
+.head1-h1 {
+    font-family: Gelasio;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: 0em;
+}
+
+.head1 p {
+    margin-top: 30px;
+}
+
+.knopka-head1 {
+    margin-top: 58px;
+}
+
+.head1 a {
+    color: white;
+}
+
+.head2 {
+    margin-top: 368px;
+}
+
+.head2-h4 {
+    text-align: center;
+    margin-left: -280px;
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.head2 p {
+    margin-left: -280px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.head2-1 {
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.head2-img {
+    width: 360px;
+    height: 331px;
+}
+
+.head2-block1 {
+    margin-left: 10px;
+    width: 360px;
+    height: 500px;
+    border: 1px solid #999999;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.head2-1 h5 {
+    margin-top: 35px;
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.head2-1 p {
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.head3 {
+    margin-top: 140px;
+}
+
+.head3-h4 {
+    text-align: center;
+    margin-left: -280px;
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.head3-galery {
+    margin-top: 60px;
+    display: inline-flex;
+}
+
+.head3-block {
+    margin-right: 73px;
+}
+
+.head3-block h5 {
+    margin-top: 20px;
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.head3-img {
+    border-radius: 10px;
+}
+
+.head3-block p {
+    text-align: left;
+    margin-top:8px ;
+    margin-left: -1px;
+}
+
+.head4 {
+    margin-top: 190px;
+}
+
+.head4 h4 {
+    text-align: center;
+    margin-left: -280px;
+    font-family: Gelasio;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+}
+
+.head4-block {
+    margin-top: 56px;
+}
+
+.head4-block1 {
+    float: left;
+}
+
+.head4-block img {
+    border-radius: 10px;
+}
+
+.head4-block2 {
+   display: list-item;
+   margin-top: 30px;
+   padding-left: 590px;
+}
+
+.head4-block2 img{
+    margin-top: 30px;
+    height: 201px;
+    width: 600px;
+ }
+
+.head4-block h5 {
+    margin-top: 35px;
+    font-family: Gelasio;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+}
+
+.head4-block p {
+    text-align: left;
+    margin-left: -1px;
+}
+
+.footer {
+    margin-top: 212px;
+    display: inline-flex;
+}
+
+.footer1 h5 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.06em;
+}
+
+.footer1 {
+
+}
+
+.footer1 h4 {
+    font-family: Ribeye;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    margin-left: -90px;
+}
+
+.footer-soc {
+    display: inline-flex;
+    margin-left: 27px;
+}
+
+.footer-soc img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer2 {
+    margin-left: 100px;
+}
+
+.footer a {
+    color: black;
+}
+
+.footer3 {
+    margin-left: 150px;
+}
+
+.footer-p {
+    margin-top: 42px;
+    height: 44px;
+    width: 195px;
+}
+
+.footer3 p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: black;
+    border:1px solid #999999 ;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-email {
+    display: inline;
+
+}
+
+.knopka-footer {
+    margin-left: 172px;
+    margin-left: 210px;
+    margin-top: -45px;
+}        
